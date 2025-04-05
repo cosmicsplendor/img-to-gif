@@ -4,6 +4,7 @@ This Node.js script automatically converts a sequence of images (PNG, JPG/JPEG) 
 
 The script reads images from an input folder, sorts them chronologically based on their file creation or modification timestamp, and then encodes them frame by frame into a single GIF output file.
 ![Sample GIF](https://raw.githubusercontent.com/cosmicsplendor/img-to-gif/master/output_gifencoder.gif)
+*Support this project by playing the game featured in the GIF above on [GamePix](https://www.gamepix.com/play/whipsaw-run).*
 ## 🚀 Features
 
 *   **Image to GIF:** Converts `.png`, `.jpg`, and `.jpeg` files into an animated GIF.
