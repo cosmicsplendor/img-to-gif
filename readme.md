@@ -3,7 +3,7 @@
 This Node.js script automatically converts a sequence of images (PNG, JPG/JPEG) located in a specified directory into an animated GIF file. It uses the [`gifencoder`](https://github.com/eugeneware/gifencoder) library for efficient GIF creation and [`node-canvas`](https://github.com/Automattic/node-canvas) for image processing.
 
 The script reads images from an input folder, sorts them chronologically based on their file creation or modification timestamp, and then encodes them frame by frame into a single GIF output file.
-
+![Sample GIF](https://raw.githubusercontent.com/cosmicsplendor/img-to-gif/master/output_gifencoder.gif)
 ## 🚀 Features
 
 *   **Image to GIF:** Converts `.png`, `.jpg`, and `.jpeg` files into an animated GIF.
@@ -61,3 +61,4 @@ const GIF_QUALITY = 10; // Quality (1=best, 20=worst for gifencoder)
 const GIF_REPEAT = 0; // Repeat count (0=forever, -1=no loop)
 const FILL_BACKGROUND_COLOR = '#FFFFFF'; // Background color (e.g., '#FFFFFF' or null to disable)
 // --- End Configuration ---
+
